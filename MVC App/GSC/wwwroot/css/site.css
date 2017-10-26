@@ -47,18 +47,25 @@
 }
 
 
-/* Top Bar */
+/* Top Bar 
 
 .navbar-default {
-    /* background-color: rgb(22, 100, 167);
-    border-color: #2e8bcc; */
+     background-color: rgb(22, 100, 167);
+    border-color: #2e8bcc; 
     margin-top: -50px;
 }
 
-/* .navbar-default .nav-item > a {
+.navbar-default .navbar-collapse .navbar-nav .nav-item > a {
     color: #dddddd;
 }
 
-.navbar-default .nav-item > a:hover {
-    color: #000000;
-}  */
+.navbar-default .navbar-collapse .navbar-nav .nav-item > a:hover {
+    color: #f2f2f2;
+}
+
+.brand-icon:hover {
+    color: #00e64d;
+}
+*/
+
+
