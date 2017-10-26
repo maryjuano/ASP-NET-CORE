@@ -1,0 +1,10 @@
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\bin\Debug\netcoreapp2.0\GSC.deps.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\bin\Debug\netcoreapp2.0\GSC.runtimeconfig.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\bin\Debug\netcoreapp2.0\GSC.runtimeconfig.dev.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\bin\Debug\netcoreapp2.0\GSC.dll
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\bin\Debug\netcoreapp2.0\GSC.pdb
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\obj\Debug\netcoreapp2.0\GSC.csproj.CoreCompileInputs.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\obj\Debug\netcoreapp2.0\GSC.AssemblyInfoInputs.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\obj\Debug\netcoreapp2.0\GSC.AssemblyInfo.cs
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\obj\Debug\netcoreapp2.0\GSC.dll
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\MVC App\GSC\obj\Debug\netcoreapp2.0\GSC.pdb
