@@ -20,18 +20,20 @@
 </head>
 
 <body>
-    @{ 
-        Html.RenderPartial("_Navigation.cshtml"); 
-        Html.RenderPartial("_Toolbar.cshtml");
-    }
+     @{
+         Html.RenderPartial("_Navigation.cshtml");
+         Html.RenderPartial("_Toolbar.cshtml");
+     }  
 
     <div class="container-fluid">
         @RenderBody()
     </div>
 
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-        <a class="navbar-brand" href="#">Fixed bottom</a>
-    </nav>
+     @{
+        Html.RenderPartial("_Footer.cshtml");      
+     }
+   
+
 
     <environment include="Development">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

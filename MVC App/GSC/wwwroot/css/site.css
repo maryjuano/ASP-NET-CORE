@@ -45,10 +45,126 @@
         display: none;
     }
 }
-/* -- Toolbar -- */
-.toolbar {
-    margin-top:25px !important;
-    padding-top:50px !important;
-}
-/* -- End Toolbar -- */
 
+.toolbar-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+    .toolbar-btn:focus,
+    .btn:active:focus,
+    .btn.active:focus {
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+
+    .toolbar-btn:hover,
+    .toolbar-btn:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .toolbar-btn:active,
+    .toolbar-btn.active {
+        outline: 0;
+        background-image: none;
+        -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    }
+
+    .toolbar-btn.disabled,
+    .toolbar-btn[disabled],
+    fieldset[disabled] .toolbar-btn {
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: 0.65;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+.btn-primary {
+    color: #000;
+    background-color: transparent;
+    border: none;
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        color: #fff !important;
+        background-color: #ed0000 !important;
+    }
+
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        color: #fff !important;
+        background-color: #ed0000 !important;
+    }
+
+    .btn-primary.disabled,
+    .btn-primary[disabled],
+    fieldset[disabled] .btn-primary,
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary:hover,
+    .btn-primary.disabled:focus,
+    .btn-primary[disabled]:focus,
+    fieldset[disabled] .btn-primary:focus,
+    .btn-primary.disabled:active,
+    .btn-primary[disabled]:active,
+    fieldset[disabled] .btn-primary:active,
+    .btn-primary.disabled.active,
+    .btn-primary[disabled].active,
+    fieldset[disabled] .btn-primary.active {
+        color: #000;
+        background-color: #cccccc;
+    }
+
+    .btn-primary .badge {
+        color: #428bca;
+        background-color: #ffffff;
+    }
+
+
+.toolbar {
+    max-height: 50px;
+    margin-top:50px;
+}
+
+.footer {
+  max-height: 35px;
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.badge{
+    border-radius: 0;
+}
