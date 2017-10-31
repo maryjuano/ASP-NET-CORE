@@ -4,7 +4,6 @@
 @model GSC.Models.LoginViewModel
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,12 +13,10 @@
     <link rel="stylesheet" href="~/css/login.css" />
     <link rel="stylesheet" href="~/font-awesome-4.7.0/css/font-awesome.min.css" />
 </head>
-
 <body class="hold-transition login-page">
         <form asp-action="Index">
             <div class="login-box">
                 <div class="login-box-body">
-
                     <p class="login-box-msg">
                         <b>Software Application</b>
                     </p>
@@ -51,7 +48,7 @@
         </form>
 
      @{
-         await Html.RenderPartialAsync("_CoreScriptsPartial");
+         await Html.RenderPartialAsync("_CoreScriptsPartialv3");
          await Html.RenderPartialAsync("_ValidationScriptsPartial");      
       }
 </body>
