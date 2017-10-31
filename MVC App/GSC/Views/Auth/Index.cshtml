@@ -16,46 +16,44 @@
 </head>
 
 <body class="hold-transition login-page">
-     <form asp-action="Authenticate">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-     </form>
-       <div class="login-box">
-            <div class="login-box-body">
+        <form asp-action="Index">
+            <div class="login-box">
+                <div class="login-box-body">
 
-                <p class="login-box-msg">
-                    <b>Software Application</b>
-                </p>
-                <div class="form-group">
-                    <input type="text" asp-for="UserName" class="form-control input-sm login-input" placeholder="Username">
-                </div>
-                <div class="form-group">
-                    <input type="password" asp-for="Password" class="form-control input-sm login-input" placeholder="Password">
-                </div>
-                <div class="login-box-footer">
-                    <div class="text-danger">                     
+                    <p class="login-box-msg">
+                        <b>Software Application</b>
+                    </p>
+                    <div class="form-group text-center">
+                        <input type="text" asp-for="UserName" class="form-control input-sm login-input" placeholder="Username">
+                        <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block btn-sm">SUBMIT</button>
+                    <div class="form-group text-center">
+                        <input type="password" asp-for="Password" class="form-control input-sm login-input" placeholder="Password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
-                    <div class="form-group">
-                        <div class="pull-left">
-                            <input type="checkbox" asp-for="RememberMe"> Remember Me
+                    <div class="login-box-footer">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block btn-sm">SUBMIT</button>
                         </div>
-                        <div class="pull-right">
-                            <a href="#">Forgot Password?</a>
+                        <div class="form-group">
+                            <div class="pull-left">
+                                <input type="checkbox" asp-for="RememberMe"> Remember Me
+                            </div>
+                            <div class="pull-right">
+                                <a href="#">Forgot Password?</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
+        </form>
 
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js" asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-        asp-fallback-test="window.jQuery" crossorigin="anonymous" integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
-    </script>
-    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js" asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-        asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal" crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-    </script>
+     @{
+         await Html.RenderPartialAsync("_CoreScriptsPartial");
+         await Html.RenderPartialAsync("_ValidationScriptsPartial");      
+      }
 </body>
 
 </html>
