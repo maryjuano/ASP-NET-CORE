@@ -107,6 +107,8 @@
     border: none;
 }
 
+
+
     .btn-primary:hover,
     .btn-primary:focus,
     .btn-primary:active,
@@ -167,5 +169,34 @@
 
 .badge{
     border-radius: 0;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.section-title.show-bar {
+    border-bottom-width: 1px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 0;
+}
+
+.form-group > label {
+    font-size: 12px;
+}
+
+.section {
+    margin-bottom:10px;
 }
 

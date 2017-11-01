@@ -1,0 +1,14 @@
+What is this template for and its goal?
+
+- provides a base solution for any given ERP project.
+- modularized (service pattern) using out of the box IOC container of .NET Core.
+- Up-to-date technology used .Net Core 2.x / EF Core 2.x / Bootstrap v4.x.x 
+- UI Design is modern and mobile responsive.
+- Has an Identity Provider (Authorization and Authentication) interchangeable to DB/Service/API.
+- Dynamic Navigation
+- Editable Grid, Entity List, and Entity Form Template, Quick Create Forms (maintenance forms).
+- Single Page Application concept applied (faster responsivness of web-page, doesn't post back too much).
+- Performs better than any current project available in the organization.
+- Open-Source, solution is extendable, maintainable and deployable.
+
+ 
