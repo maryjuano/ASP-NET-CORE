@@ -42,5 +42,10 @@ namespace GSC.Controllers
         {
            return View();
         }
+
+        public IActionResult EntityForm()
+        {         
+          return View();
+        }
     }
 }
