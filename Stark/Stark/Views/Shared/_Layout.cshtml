@@ -20,9 +20,26 @@
 
 <body>
      @{
-         Html.RenderPartial("_Navigation.cshtml");
-         Html.RenderPartial("_Toolbar.cshtml");
+         Html.RenderPartial("_Navigation.cshtml");      
      }  
+    <div class="card toolbar fixed-top bg-light">
+        <div class="d-flex justify-content-end">
+            <div class="mr-auto p-1">
+                <ol class="breadcrumb bg-light ">
+                    <li class="breadcrumb-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Entity</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">List</li>
+                </ol>
+            </div>
+
+            @RenderSection("ToolbarRight", required: false)          
+        </div>
+    </div>
+
 
     <div class="container-fluid" style="margin-top:40px;">
         @RenderBody()

@@ -9,3 +9,14 @@ c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\n
 c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.AssemblyInfo.cs
 c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.dll
 c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.pdb
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.deps.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.runtimeconfig.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.runtimeconfig.dev.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.dll
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.pdb
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.csproj.CoreCompileInputs.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.AssemblyInfoInputs.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.AssemblyInfo.cs
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.dll
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.pdb
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.csprojResolveAssemblyReference.cache

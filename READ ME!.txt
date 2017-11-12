@@ -12,3 +12,7 @@ What is this template for and its goal?
 - Open-Source, solution is extendable, maintainable and deployable.
 
  
+Technologies Used:
+- Bootstrap v4
+- ASP.NET Core 2.0
+- EntityFrameworkCore 2.0

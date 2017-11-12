@@ -1,0 +1,94 @@
+﻿@model Stark.Models.NewUserViewModel;
+
+@{
+    ViewData["Title"] = "New User";
+}
+
+<div class="d-flex justify-content-end form-header">
+    <div class="mr-auto p-1">
+        <h2>Record Primary Name</h2>
+    </div>
+    <div class="p-1">
+        <h2>Something can be put here..</h2>
+    </div>
+</div>
+
+@section ToolbarRight {
+    <div class="p-1">
+        <button type="button" id="submit" class="toolbar-btn btn-primary">
+            <span class="fa fa-floppy-o"></span> SAVE
+        </button>
+    </div>
+    <div class="p-1">
+        <button type="button" class="toolbar-btn btn-primary">
+            <span class="fa fa-trash-o"></span> DELETE
+        </button>
+    </div>
+}
+
+<form asp-action="NewUser" id="newUserForm">    
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>   
+    <div class="card section">
+        <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    General Information
+                </a>
+            </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label asp-for="FirstName">First Name</label>
+                        <input asp-for="FirstName" type="text" class="form-control form-control-sm" placeholder="First Name">
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="MiddleName">Middle Name</label>
+                        <input asp-for="MiddleName" type="text" class="form-control form-control-sm" placeholder="Middle Name">                       
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="LastName">Last Name</label>
+                        <input asp-for="LastName" type="text" class="form-control form-control-sm" placeholder="Last Name">
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-row">                   
+                    <div class="form-group col-md-3">
+                        <label for="inputCity">Username</label>
+                        <input asp-for="UserName" type="text" class="form-control form-control-sm" placeholder="Username">
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputState">Password</label>
+                        <input asp-for="Password" type="password" class="form-control form-control-sm" placeholder="Password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section FooterLeft {
+    <div class="mr-auto p-1">
+        <span class="badge badge-primary">Some other relevant info</span>
+    </div>
+}
+@section FooterRight {
+    <div class="p-1">
+        <span class="badge badge-dark">Record Status</span>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#submit').click(function() {
+                $('#newUserForm').submit();
+            });
+        });
+    </script>
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
