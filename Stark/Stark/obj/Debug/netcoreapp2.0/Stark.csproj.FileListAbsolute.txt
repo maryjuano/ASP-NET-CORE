@@ -1,0 +1,11 @@
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.deps.json
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.runtimeconfig.json
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.runtimeconfig.dev.json
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.dll
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.pdb
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.csprojResolveAssemblyReference.cache
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.csproj.CoreCompileInputs.cache
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.AssemblyInfoInputs.cache
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.AssemblyInfo.cs
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.dll
+c:\users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.pdb
