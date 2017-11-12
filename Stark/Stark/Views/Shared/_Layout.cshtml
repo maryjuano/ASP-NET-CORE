@@ -19,13 +19,11 @@
 </head>
 
 <body>
-     @{
-         Html.RenderPartial("_Navigation.cshtml");      
-     }  
+     @await Component.InvokeAsync("Navigation");    
     <div class="card toolbar fixed-top bg-light">
         <div class="d-flex justify-content-end">
             <div class="mr-auto p-1">
-                <ol class="breadcrumb bg-light ">
+                <ol class="breadcrumb bg-light">
                     <li class="breadcrumb-item">
                         <a href="#">Home</a>
                     </li>

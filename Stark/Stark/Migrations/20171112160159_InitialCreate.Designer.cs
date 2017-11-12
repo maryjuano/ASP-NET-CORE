@@ -11,8 +11,8 @@ using System;
 namespace Stark.Migrations
 {
     [DbContext(typeof(StarkDbContext))]
-    [Migration("20171112135615_UpdatedUserInfo2")]
-    partial class UpdatedUserInfo2
+    [Migration("20171112160159_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -146,6 +146,8 @@ namespace Stark.Migrations
 
                     b.Property<string>("FirstName");
 
+                    b.Property<string>("FullName");
+
                     b.Property<string>("LastName");
 
                     b.Property<bool>("LockoutEnabled");
@@ -184,6 +186,20 @@ namespace Stark.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("Stark.Models.WebLink", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Url");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("WebLinks");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

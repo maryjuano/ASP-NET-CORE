@@ -11,8 +11,8 @@ using System;
 namespace Stark.Migrations
 {
     [DbContext(typeof(StarkDbContext))]
-    [Migration("20171112065551_UpdatedUserInfo")]
-    partial class UpdatedUserInfo
+    [Migration("20171112160528_WebLinksUpdate")]
+    partial class WebLinksUpdate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -136,8 +136,6 @@ namespace Stark.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
-                    b.Property<string>("Branch");
-
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
@@ -147,6 +145,8 @@ namespace Stark.Migrations
                     b.Property<bool>("EmailConfirmed");
 
                     b.Property<string>("FirstName");
+
+                    b.Property<string>("FullName");
 
                     b.Property<string>("LastName");
 
@@ -186,6 +186,22 @@ namespace Stark.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("Stark.Models.WebLink", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("DisplayOrder");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Url");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("WebLinks");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

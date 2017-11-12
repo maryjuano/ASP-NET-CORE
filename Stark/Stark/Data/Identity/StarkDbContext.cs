@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Stark.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace Stark.Data.Identity
     {
         public StarkDbContext(DbContextOptions<StarkDbContext> options)
             : base(options)
-        { }
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -20,5 +22,7 @@ namespace Stark.Data.Identity
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<WebLink> WebLinks { get; set; }
     } 
 }
