@@ -1,18 +1,31 @@
 What is this template for and its goal?
 
-- provides a base solution for any given ERP project.
+- provides a base solution that will speed up the development of any team for any given ERP project. They
+will be more focused on the domain specific features of the project rather than technical.
 - modularized (service pattern) using out of the box IOC container of .NET Core.
 - Up-to-date technology used .Net Core 2.x / EF Core 2.x / Bootstrap v4.x.x 
 - UI Design is modern and mobile responsive.
 - Has an Identity Provider (Authorization and Authentication) interchangeable to DB/Service/API.
-- Dynamic Navigation
+- Maintainable Navigation
 - Editable Grid, Entity List, and Entity Form Template, Quick Create Forms (maintenance forms).
 - Single Page Application concept applied (faster responsivness of web-page, doesn't post back too much).
 - Performs better than any current project available in the organization.
 - Open-Source, solution is extendable, maintainable and deployable.
 
+What are the goals of this template for any specific Domain?
+- Low-Cost Software Solution for Enterprise Projects.
+- provides a solution that performs better than most application available in the market
+- provides a modular solution that can be integrated with existing systems. Because most of the middle and upper class companies has an exiting system for their business problems and we can leverage those to extend and further enhance their business processes.
+- create a core solution that has an existing capabilities that most business applications will need, designed specifically for Enterprise ones.
  
 Technologies Used:
 - Bootstrap v4
 - ASP.NET Core 2.0
 - EntityFrameworkCore 2.0
+- AngularJS 2.x
+
+
+
+
+To-Do's are inside the excel file "Backlogs.xlsx".
+
