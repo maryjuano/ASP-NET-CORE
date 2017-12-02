@@ -13,13 +13,16 @@ What are the goals of this template for any specific Domain?
 - provides a modular solution that can be integrated with existing systems. Because most of the middle and upper class companies has an exiting system for their business problems and we can leverage those to extend and further enhance their business processes.
 - create a core solution that has an existing capabilities that most business applications will need, designed specifically for Enterprise ones.
  
-Technologies Used:
-- Bootstrap v4
-- ASP.NET Core 2.0
-- EntityFrameworkCore 2.0
-- AngularJS 2.x
+Technologies Used: (continous update)
+- Bootstrap ^v4
+- ASP.NET Core ^2
+- EntityFrameworkCore ^2
+- AngularJS ^4
 
 
 
 To-Do's are inside the excel file "Backlogs.xlsx".
 
+Note: Restructuring of Architecture is under-going. Project Stark might be replaced by new one along with the layer changes in the solution.
+
+- Default user is inside the DbInitializer.cs class. You can add your own default user if you want to or seed data like navigation items.
