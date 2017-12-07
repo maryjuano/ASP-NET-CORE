@@ -1,0 +1,6 @@
+Create Angular Application: ng new project_name
+Create Module: ng generate module app-routing --flat --module=app 
+Create Component: ng generate component --module=app 
+Create Services: ng generate service messages --module=app
+Use Angular Web Hosting: ng serve
+
