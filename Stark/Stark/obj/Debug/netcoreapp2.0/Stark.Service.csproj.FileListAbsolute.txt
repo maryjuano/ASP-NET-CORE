@@ -1,0 +1,13 @@
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.Service.deps.json
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.Service.runtimeconfig.json
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.Service.runtimeconfig.dev.json
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.Service.dll
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.Service.csprojResolveAssemblyReference.cache
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.Service.csproj.CoreCompileInputs.cache
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.Service.AssemblyInfoInputs.cache
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.Service.AssemblyInfo.cs
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.Service.pdb
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.DAL.dll
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\bin\Debug\netcoreapp2.0\Stark.DAL.pdb
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.Service.dll
+C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark\obj\Debug\netcoreapp2.0\Stark.Service.pdb

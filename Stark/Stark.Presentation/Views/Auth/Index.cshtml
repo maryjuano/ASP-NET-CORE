@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+@model LoginViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="~/lib/metro-bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="~/font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
+<body class="hold-transition login-page">
+    <form asp-action="Index">
+        <div class="login-box">
+            <div class="login-box-body">               
+                <p class="login-box-msg">
+                    <b>Project Stark</b>       
+                </p>
+                <div class="form-group text-center">
+                    <input type="text" asp-for="UserName" class="form-control input-sm login-input" placeholder="Username">
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group text-center">
+                    <input type="password" asp-for="Password" class="form-control input-sm login-input" placeholder="Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="login-box-footer">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block btn-sm">SUBMIT</button>
+                    </div>
+                    <div class="form-group">
+                        <div class="pull-left">
+                            <input type="checkbox" asp-for="RememberMe"> Remember Me
+                        </div>
+                        <div class="pull-right">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    @{
+         await Html.RenderPartialAsync("_CoreScriptsPartialv3");
+         await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+</body>
+
+</html>
