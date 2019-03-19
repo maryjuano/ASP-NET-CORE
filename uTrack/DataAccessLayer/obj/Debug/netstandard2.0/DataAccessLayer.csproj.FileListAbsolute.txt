@@ -1,0 +1,9 @@
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\i-jcadiao\Source\repos\uTracker\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb

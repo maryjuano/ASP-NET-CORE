@@ -13181,11 +13181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark\\Stark.Service.csproj",
+      "projectUniqueName": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark\\Stark.Service.csproj",
       "projectName": "Stark.Service",
-      "projectPath": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark\\Stark.Service.csproj",
+      "projectPath": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark\\Stark.Service.csproj",
       "packagesPath": "C:\\Users\\i-jcadiao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark\\obj\\",
+      "outputPath": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13204,8 +13204,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark.DAL\\Stark.DAL.csproj": {
-              "projectPath": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark.DAL\\Stark.DAL.csproj"
+            "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark.DAL\\Stark.DAL.csproj": {
+              "projectPath": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark.DAL\\Stark.DAL.csproj"
             }
           }
         }

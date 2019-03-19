@@ -1,0 +1,17 @@
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\uTracker.dll
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\uTracker.deps.json
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\uTracker.runtimeconfig.json
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\uTracker.runtimeconfig.dev.json
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\uTracker.pdb
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.csprojAssemblyReference.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.csproj.CoreCompileInputs.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.RazorAssemblyInfo.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.RazorAssemblyInfo.cs
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.AssemblyInfoInputs.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.AssemblyInfo.cs
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.RazorTargetAssemblyInfo.cache
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.csproj.CopyComplete
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.dll
+C:\Users\i-jcadiao\Source\repos\uTracker\uTracker\obj\Debug\netcoreapp2.1\uTracker.pdb

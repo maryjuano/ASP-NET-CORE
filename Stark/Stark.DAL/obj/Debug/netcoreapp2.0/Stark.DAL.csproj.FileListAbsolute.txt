@@ -7,3 +7,12 @@ C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark.DAL\bin\Deb
 C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark.DAL\bin\Debug\netcoreapp2.0\Stark.DAL.pdb
 C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.dll
 C:\Users\i-jcadiao\documents\visual studio 2017\Projects\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.pdb
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\bin\Debug\netcoreapp2.0\Stark.DAL.deps.json
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\bin\Debug\netcoreapp2.0\Stark.DAL.dll
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\bin\Debug\netcoreapp2.0\Stark.DAL.pdb
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.csprojResolveAssemblyReference.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.csproj.CoreCompileInputs.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.AssemblyInfoInputs.cache
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.AssemblyInfo.cs
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.dll
+C:\Users\i-jcadiao\Documents\GitHub\ASP-NET-CORE\Stark\Stark.DAL\obj\Debug\netcoreapp2.0\Stark.DAL.pdb

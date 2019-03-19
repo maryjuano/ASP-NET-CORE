@@ -3766,11 +3766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark.DAL\\Stark.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark.DAL\\Stark.DAL.csproj",
       "projectName": "Stark.DAL",
-      "projectPath": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark.DAL\\Stark.DAL.csproj",
+      "projectPath": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark.DAL\\Stark.DAL.csproj",
       "packagesPath": "C:\\Users\\i-jcadiao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i-jcadiao\\Documents\\Visual Studio 2017\\Projects\\Stark\\Stark.DAL\\obj\\",
+      "outputPath": "C:\\Users\\i-jcadiao\\Documents\\GitHub\\ASP-NET-CORE\\Stark\\Stark.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
